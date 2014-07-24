@@ -1,8 +1,0 @@
-{
-	"_id": "_design/posts",
-	"views": {
-		"list": {
-			"map": "{{posts/views/list.js}}"
-		}
-	}
-}

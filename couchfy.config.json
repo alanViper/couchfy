@@ -1,6 +1,0 @@
-{
-	"HOST": "http://localhost:5984/",
-	"DATABASE": "test",
-	"DIR_DESIGN": "_design",
-	"DIR_BUILD": "_design/build"
-}

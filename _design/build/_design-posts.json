@@ -1,8 +1,0 @@
-{
-	"_id": "_design/posts",
-	"views": {
-		"list": {
-			"map": "function(doc){emit(doc._id, doc_rev);}"
-		}
-	}
-}
