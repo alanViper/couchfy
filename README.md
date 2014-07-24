@@ -36,6 +36,13 @@ your_project/
 Run
 ----
 
+Go to the directory of your project.
+
+e.g.:
+```sh
+cd /user/your_project
+```
+
 For run:
 ```sh
 python3 -m couchfy
