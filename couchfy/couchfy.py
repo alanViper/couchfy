@@ -152,32 +152,3 @@ class Couchdb_app:
 						pass
 					finally:
 						self.db.save(design_doc)
-
-
-"""
-def couchdb_sync():
-	couch = Couchdb_app()
-	couch.update()
-
-
-def config_file_exists():
-	files = os.listdir('.')
-	if not CONFIG_FILE in files:
-		print("\nERROR: Config file not found.\n")
-		return False
-	else:
-		return True
-
-
-if __name__ == '__main__':
-	from optparse import OptionParser
-	parser = OptionParser()
-	parser.add_option('-s', '--sync', dest='sync')
-	if config_file_exists():
-		opts = parser.parse_args()
-		opts = opts[0]
-		unify = Unify_design()
-		unify.compiler()
-		if opts.sync == 'sync':
-			couchdb_sync()
-"""
