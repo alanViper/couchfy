@@ -1,4 +1,4 @@
-Couchfy v0.2
+Couchfy v0.3
 =======
 
 With Couchfy you can create a pattern for your application in CouchDB.
