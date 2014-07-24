@@ -15,19 +15,33 @@ Try it!
 
 Download the Couchfy.
 
-In the directory _design, create your pattern. You can find an example in the directory _design.
+For install:
+```sh
+python3 setup.py install
+```
+
+In the directory _design, create your pattern. You can find an example in the directory example/_design.
+
+You must create the configuration file "couchfy.config.json". A example in example/_design.
 
 In _design/build directory, are all compiled documents.
+
+Your project should look like this:
+```sh
+your_project/
+	couchfy.config.json
+	_design/
+```
 
 Run
 ----
 
 For run:
 ```sh
-python3 couchfy.py
+python3 -m couchfy
 ```
 
 If you want synchronize with CouchDB:
 ```sh
-python3 couchfy.py -s sync
+python3 -m couchfy -s sync
 ```
