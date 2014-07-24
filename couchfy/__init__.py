@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from .couchfy import Unify_design, Couchdb_app
 import os
 

@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-
-"""
-Couchfy - v0.2
-
-Author: Alan Raphael <alan@xr1.com.br>
-"""
-
 import os, json, re, pycouchdb
 from shutil import rmtree
 
